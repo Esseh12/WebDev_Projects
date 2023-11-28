@@ -22,6 +22,8 @@ else {
     document.querySelector(".img1").src = "./images/dice6.png";
 }
 
+
+
 var randomNumber2 = Math.random();
 randomNumber2 = (randomNumber2 * 6) + 1;
 randomNumber2= Math.floor(randomNumber2);
@@ -44,4 +46,18 @@ else if (i === 5) {
 }
 else {
     document.querySelector(".img2").src = "./images/dice6.png";
+}
+
+
+
+if (N === i){
+document.querySelector('h1').innerHTML = 'Draw!!!';
+}
+
+else if (N > i){
+    document.querySelector('h1').innerHTML = 'Player 1 wins!!!';
+    }
+
+else if (N < i){
+        document.querySelector('h1').innerHTML = 'Player 2 wins!!!';
 }
