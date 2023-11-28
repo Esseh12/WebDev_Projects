@@ -1,0 +1,40 @@
+*{
+    padding: none;
+    margin: none;
+
+}
+
+.highlight{
+    color: rgb(12, 12, 151);
+}
+
+.logo{
+    width: 25%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+h1{
+    display: block;
+}
+
+img{
+    width: 30%;
+    margin-right: 20px;
+}
+.main{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.card-text{
+    margin-left: 20px;
+}
+footer{
+    float: right;
+}
