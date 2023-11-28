@@ -55,9 +55,9 @@ document.querySelector('h1').innerHTML = 'Draw!!!';
 }
 
 else if (N > i){
-    document.querySelector('h1').innerHTML = 'Player 1 wins!!!';
+    document.querySelector('h1').innerHTML = '🚩Player 1 wins!!!';
     }
 
 else if (N < i){
-        document.querySelector('h1').innerHTML = 'Player 2 wins!!!';
+        document.querySelector('h1').innerHTML = '🚩Player 2 wins!!!';
 }
