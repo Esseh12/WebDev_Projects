@@ -6,15 +6,3 @@ function getInputValue(){
   name = name * 100;
   name = Math.floor(name) + 1;
    
-  if (name === 1 && name < 30){
-    document.querySelector("img").src = ""
-  }
-
-  else if (name === 31 && name < 60){
-    document.querySelector("img").src = "./white_dance.jpg"
-  }
-
-  else {
-    alert("greter");
-  }
-}
